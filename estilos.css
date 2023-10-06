@@ -10,14 +10,34 @@ main{
     display: flex;
     flex-direction: column;
     height: 600px;
-    padding: 1em;
+    padding: 7px;
 }
 
 header{
     background-color: black; 
+    padding: 10px;
     
    
   
+}
+
+#menu{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    text-decoration: none;
+    margin: 5px;
+    padding: 5px;
+    color: white;
+    justify-content: center;
+}
+
+nav a{
+    color:white;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 20px;
+
 }
 h1{
     color: white;
@@ -91,8 +111,34 @@ footer{
 }
 
 .danny{
-    right: 400px;
+    right: 415px;
     position: absolute;
-    top: 459px;
+    top: 495px;
 
 }
+.topaimg{
+    height: 400px;
+    width: 500px;
+    top: 200px;
+    position: absolute;
+}
+
+.panamimg{
+    height: 350px;
+    width: 500px;
+    top: 610px;
+    position: absolute;
+
+}
+
+.circoimg{
+    height: 500px;
+    width: 500px;
+    top: 200px;
+    position: absolute;
+    right: 500px;
+}
+
+
+
+
